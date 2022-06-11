@@ -1,0 +1,52 @@
+body {
+    background-color: #f1f1f1;
+}
+
+.light_color {
+    color: darkgray;
+}
+
+.image {
+    padding-bottom: 30px;
+    padding-top: 45px;
+    height: 130px !important;
+}
+
+.copyright {
+    margin-top: 15%;
+    text-align: center;
+    font-size: 15px !important;
+}
+
+.container {
+    padding: 0 10%;
+}
+.fixed-header, .fixed-footer{
+    width: 100%;
+    position: fixed;
+    background: black;
+    padding: 40px 0;
+}
+.fixed-header{
+    top: 0;
+}
+
+#add_button {
+    width: 100%;
+    padding-bottom: 2px !important;
+}
+#customers_details {
+    background-color: white;
+}
+
+.fixed-footer{
+    bottom: 0;
+}
+
+.btn-success {
+    margin-right: 5px !important;
+}
+
+.line_through {
+    text-decoration: line-through;
+}
