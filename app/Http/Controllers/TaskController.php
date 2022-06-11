@@ -9,7 +9,7 @@ use App\Models\Task;
 class TaskController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * Display a listing of the tasks.
      *
      */
     public function index()
@@ -20,7 +20,7 @@ class TaskController extends Controller
     }
 
     /**
-     * Show the form for creating a new resource.
+     * Create new task.
      *
      */
     public function create(TaskRequest $request)
@@ -31,7 +31,7 @@ class TaskController extends Controller
     }
 
     /**
-     * Show the form for creating a new resource.
+     * Update a task.
      *
      */
     public function completeTask(Task $taskId)
@@ -42,7 +42,7 @@ class TaskController extends Controller
     }
 
     /**
-     * Show the form for creating a new resource.
+     * Delete a task.
      *
      */
     public function deleteTask(Task $taskId)
